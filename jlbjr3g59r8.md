@@ -1,9 +1,5 @@
 ```
-run("Duplicate...", "title=BackgroundCleanup duplicate");
-run("Gaussian Blur...", "sigma=50 stack");
-imageCalculator("Subtract create stack", "MembraneChannel","BackgroundCleanup");
-close("BackgroundCleanup");
-selectWindow("Result of MembraneChannel");rename("ForSegmentation");
+
 run("Smooth", "stack");run("Smooth", "stack");
 setThreshold(8, 255);
 run("Set Measurements...", "area mean bounding fit shape stack display redirect=None decimal=3");
