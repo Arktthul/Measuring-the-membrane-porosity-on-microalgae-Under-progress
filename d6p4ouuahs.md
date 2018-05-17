@@ -7,7 +7,7 @@ Testcount = 0;
 		roiManager("XOR");
 
 
-print(k);	run("Measure"); area2= getResult("Area",k+Testcount);print(area2);
+	run("Measure"); area2= getResult("Area",k+Testcount);print(area2);
 		if (area2 >= 34178){
 			print("XOR selection is null");
 			//XOR selection is null
