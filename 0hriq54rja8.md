@@ -2,6 +2,7 @@
 	selectWindow("FinalTable");
 	Table.rename("FinalTable","Results");
 	se("Name", i, Label);
+	/tResult/setResult("Intensity Border", i, IntensityArray[0]);
 	ColumnTitle = "Average Intensity Algae";
 	setResult(ColumnTitle, i, IntensityArray[0]);
 	for (n=1;n<=10;n++){
