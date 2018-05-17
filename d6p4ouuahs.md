@@ -8,7 +8,7 @@ Testcount = 0;
 	    run("Measure"); area2= getResult("Area",k+Testcount);
 		if (area2 >= 34178){
 			print("XOR selection is null");
-					roiManager("Select",l);
+			roiManager("Select",l);
 			Table.deleteRows(k, k);
 			Testcount = Testcount-1;
 		}
