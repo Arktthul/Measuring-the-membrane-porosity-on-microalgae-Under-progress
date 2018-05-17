@@ -21,4 +21,3 @@ for (i=0;i<seriesCount;i++) {
 run("Images to Stack", "method=[Scale (largest)] name=MembraneChannel title=[] use");
 run("Set Scale...", "distance=1 known=0.18054 pixel=1 unit=micron");
 ```
-```
