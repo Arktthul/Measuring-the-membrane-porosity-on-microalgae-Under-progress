@@ -1,14 +1,1 @@
-<div>3. Measure</div><div></div><div>	for(n=10+ROIcount;n&lt;19+ROIcount;n++){
-</div><div>&nbsp;&nbsp;&nbsp; 	roiManager("Select",n);&nbsp;&nbsp;&nbsp; 
-</div><div>&nbsp;&nbsp;&nbsp; 	run("Measure");
-</div><div>	}
-</div><div>	roiManager("Select",9+ROIcount);&nbsp;&nbsp;&nbsp; 
-</div><div>	run("Measure");
-</div><div>	Label = getResultString("Label",0)+"_"+i+1; print(Label);
-</div><div>	IntensityArray = newArray(11);
-</div><div>	IntensityArray[0]=getResult("Mean",0);
-</div><div>	for (m=1;m&lt;=10;m++){
-</div><div>		IntensityArray[m]=getResult("Mean",m+9);
-</div><div>	}
-</div><div>	Array.show(IntensityArray);waitForUser("Pause");
-</div><div>	Table.rename("Results","ResultsofsingleMicroAlgae"+i);run("Close");</div>
+<div>3. Measure</div><div></div><div></div>
