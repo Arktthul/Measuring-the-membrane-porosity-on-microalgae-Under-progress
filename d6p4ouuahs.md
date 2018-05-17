@@ -5,8 +5,7 @@ Testcount = 0;
 		Selec =newArray(l,k+ROIcount);//waitForUser("Pause");
     	roiManager("Select",Selec);
 		roiManager("XOR");
-//if two ROIs are the same then XOR is null and no selection can be performed ==> macro fail
-//test roiManaager XOR
+
 
 print(k);	run("Measure"); area2= getResult("Area",k+Testcount);print(area2);//waitForUser("Pause");
 		if (area2 >= 34178){
