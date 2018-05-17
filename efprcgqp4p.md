@@ -11,7 +11,8 @@ for (i=0;i<seriesCount;i++) {
 	Ext.setSeries(i);
 	Ext.openImage("title", 0);
 }
-
+run("Images to Stack", "method=[Scale (largest)] name=DextranChannel title=[] use");
+run("Set Scale...", "distance=1 known=0.18054 pixel=1 unit=micron");
 for (i=0;i<seriesCount;i++) {
 	Ext.setSeries(i);
 	Ext.openImage("title", 2);
