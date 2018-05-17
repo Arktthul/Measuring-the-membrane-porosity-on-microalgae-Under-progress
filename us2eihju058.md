@@ -12,7 +12,7 @@ for (i=0; i<ROIcount; i++){
 	roiManager("Add");//waitForUser("Pause");
 	for(j=1;j<10;j++){
     	roiManager("Select",ROIcount);
-   		print(j,(10-j)/10,sqrt((10-j)/10)*Radius);//waitForUser("Pause");
+   		print(j,(10-j)/10,sqrt((10-j)/10)*Radius);
    		Diff=Radius*(1-sqrt((10-j)/10));
     	run("Enlarge...", "enlarge=-"+Diff);
     	roiManager("Add");
