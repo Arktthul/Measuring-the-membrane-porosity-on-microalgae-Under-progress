@@ -11,6 +11,6 @@
 	for (m=1;m<=10;m++){
 		IntensityArray[m]=getResult("Mean",m+9);
 	}
-	
+
 	Table.rename("Results","ResultsofsingleMicroAlgae"+i);run("Close");
 ```
