@@ -6,7 +6,6 @@ NewROIcount = roiManager("count");
 	SelectedROIS = Array.slice(AllROIS,ROIcount,NewROIcount);
 
 	roiManager("Select", SelectedROIS);
-
 	roiManager("Delete");
 
 ```
