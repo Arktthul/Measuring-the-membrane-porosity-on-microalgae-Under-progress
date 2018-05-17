@@ -7,5 +7,8 @@ run("Bio-Formats Macro Extensions");
 Ext.setId(FileName);
 Ext.fileGroupOption(FileName, must);
 Ext.getSeriesCount(seriesCount); print(seriesCount);
-
+for (i=0;i<seriesCount;i++) {
+	Ext.setSeries(i);
+	Ext.openImage("title", 0);
+}
 ```
