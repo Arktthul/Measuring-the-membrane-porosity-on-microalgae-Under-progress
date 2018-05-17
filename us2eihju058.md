@@ -6,7 +6,7 @@ for (i=0; i<ROIcount; i++){
 	area1= getResult("Area",0);
 	//print(area1);
 	Radius = sqrt(area1/(3.14));
-	print(Radius);//waitForUser("Pause");
+	print(Radius);
 	//run("Enlarge...", "enlarge=-"+Radius/10);
 	//run("Make Band...", "band="+Radius/10);
 	roiManager("Add");
