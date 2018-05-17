@@ -1,1 +1,11 @@
-<div>4. Final Table</div><div></div>
+<div>4. Final Table</div><div></div><div>	selectWindow("FinalTable");
+</div><div>	Table.rename("FinalTable","Results");
+</div><div>	setResult("Name", i, Label);
+</div><div>	//setResult("Intensity Border", i, IntensityArray[0]);
+</div><div>	ColumnTitle = "Average Intensity Algae";
+</div><div>	setResult(ColumnTitle, i, IntensityArray[0]);
+</div><div>	for (n=1;n&lt;=10;n++){
+</div><div>	ColumnTitle = "Intensity Slice"+n;
+</div><div>	setResult(ColumnTitle, i, IntensityArray[n]);
+</div><div>	}
+</div><div>	Table.rename("Results","FinalTable");</div>
