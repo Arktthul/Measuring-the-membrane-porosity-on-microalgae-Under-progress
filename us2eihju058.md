@@ -2,7 +2,7 @@
 for (i=0; i<ROIcount; i++){
 	selectWindow("DextranChannel");run("Set Measurements...", "area mean display redirect=None decimal=3");
 	roiManager("Select", i);
-	run("Measure");//waitForUser("Pause");
+	run("Measure");
 	area1= getResult("Area",0);
 	//print(area1);
 	Radius = sqrt(area1/(3.14));
