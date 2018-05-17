@@ -2,7 +2,7 @@
 Testcount = 0;
 	for(k=1;k<10;k++){
 		l = k+ROIcount-1;
-		Selec =newArray(l,k+ROIcount);//waitForUser("Pause");
+		Selec =newArray(l,k+ROIcount);
     	roiManager("Select",Selec);
 		roiManager("XOR");
 
