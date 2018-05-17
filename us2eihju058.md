@@ -9,7 +9,7 @@ for (i=0; i<ROIcount; i++){
 	print(Radius);//waitForUser("Pause");
 	//run("Enlarge...", "enlarge=-"+Radius/10);
 	//run("Make Band...", "band="+Radius/10);
-	roiManager("Add");//waitForUser("Pause");
+	roiManager("Add");
 	for(j=1;j<10;j++){
     	roiManager("Select",ROIcount);
    		print(j,(10-j)/10,sqrt((10-j)/10)*Radius);
