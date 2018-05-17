@@ -1,5 +1,5 @@
 ```
-```
+
 run("Duplicate...", "title=BackgroundCleanup duplicate");
 //run("Duplicate...", "title=Segmentation duplicate");
 run("Gaussian Blur...", "sigma=50 stack");
