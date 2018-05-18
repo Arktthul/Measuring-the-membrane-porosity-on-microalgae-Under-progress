@@ -1,4 +1,4 @@
-
+''
 \begin{lstlisting)
 Dir1 = getDirectory("Choose Source Directory");
 ImageList =getFileList(Dir1);
