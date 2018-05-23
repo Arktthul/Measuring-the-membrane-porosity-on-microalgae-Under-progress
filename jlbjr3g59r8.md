@@ -1,5 +1,5 @@
 ```
-
+\begin{lstlisting) 
 run("Smooth", "stack");run("Smooth", "stack");
 setThreshold(8, 255);
 run("Set Measurements...", "area mean bounding fit shape stack display redirect=None decimal=3");
