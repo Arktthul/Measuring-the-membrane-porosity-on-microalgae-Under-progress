@@ -1,5 +1,6 @@
 
 ```
+
 Dir1 = getDirectory("Choose Source Directory");
 ImageList =getFileList(Dir1);
 Array.show(ImageList);
