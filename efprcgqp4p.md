@@ -1,6 +1,6 @@
 
 ```
-\begin{lstlisting) a\end{lstlisting}
+\begin{lstlisting) \end{lstlisting}
 Dir1 = getDirectory("Choose Source Directory");
 ImageList =getFileList(Dir1);
 Array.show(ImageList);
