@@ -1,4 +1,5 @@
 ```
+
 run("Duplicate...", "title=BackgroundCleanup duplicate");
 run("Gaussian Blur...", "sigma=50 stack");
 imageCalculator("Subtract create stack", "MembraneChannel","BackgroundCleanup");
