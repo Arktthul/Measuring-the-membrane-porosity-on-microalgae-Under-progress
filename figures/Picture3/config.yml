@@ -1,0 +1,20 @@
+---
+version: 2
+multicolumn: false
+web-width: 800
+align: center
+float: h!
+grid:
+  rows: 1
+  columns: 1
+  grid_elements:
+  - path: figures/Picture3/Picture3.png
+    type: static
+    from:
+    - 1
+    - 1
+    to:
+    - 1
+    - 1
+    url: "/users/227100/articles/304014/master/file/figures/Picture3/Picture3.png"
+    folder_url: "/users/227100/articles/304014/master/folder/figures/Picture3"
