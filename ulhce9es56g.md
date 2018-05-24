@@ -5,6 +5,6 @@ list = getList("window.titles");
    
      	selectWindow(winame); 
      run("Close"); 
-     
+    
      } 
 ```
