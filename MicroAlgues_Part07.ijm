@@ -8,6 +8,6 @@ for(n=10+ROIcount;n<19+ROIcount;n++){
 	IntensityArray = newArray(11);
 	IntensityArray[0]=getResult("Mean",0);
 	for (m=1;m<=10;m++){
-		IntensityArray[m]=getResult("Mean",m+9);
+		IntensityArray[m]=getResult("Mean",m+9+Testcount);
 	}
 	Table.rename("Results","ResultsofsingleMicroAlgae"+i);run("Close");
